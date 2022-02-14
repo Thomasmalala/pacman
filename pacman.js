@@ -1014,6 +1014,7 @@ var PACMAN = (function () {
     
     function completedLevel() {
         setState(WAITING);
+	dialog("password is zjdd873);
         level += 1;
         map.reset();
         user.newLevel();
